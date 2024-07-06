@@ -1,0 +1,965 @@
+@font-face {
+    font-family: boska;
+    src: url('/boksa.ttf');
+}
+@font-face {
+    font-family: boskaItalic;
+    src: url('/boskaItalic.ttf');
+}
+@font-face {
+    font-family: Switzer;
+    src: url('/SwitzerRegular.ttf');
+}
+
+
+body {
+    font-family: 'Lato', 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.navFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+   
+}
+
+.navlink {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.navlink li {
+    color: white;
+    cursor: pointer;
+}
+
+.logoImage {
+    width: 9rem;
+    height: auto;
+}
+
+.logoImage {
+    width: 9rem;
+    height: auto;
+}
+
+.cosy {
+    color: #FFF;
+    text-align: center;
+    font-family: boska;
+    font-size: 16rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 10.11031rem; 
+    text-transform: capitalize;
+    width: 54.9375rem;
+    margin-right: 5rem;
+    margin-top: rem;
+}
+
+.cabin {
+    color: #75FF69;
+    text-align: right;
+    font-family: boskaItalic;
+    font-size: 16.375rem;
+   font-style: italic;
+    font-weight: 400;
+    line-height: 15.59706rem; 
+    text-transform: capitalize;
+    margin-left: 24rem;
+}
+
+.bannertext {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    margin-top: -14.2em; 
+}
+
+.woods {
+    color: #FFF;
+text-align: center;
+font-family: boska;
+font-size: 16.375rem;
+font-style: normal;
+font-weight: 400;
+line-height: 12rem; 
+text-transform: capitalize;
+margin-top: 5rem;
+
+}
+.Switzer{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    margin-top: -5rem;
+    width: 35.625rem;
+    color: #FFF;
+text-align: center;
+font-family: "Switzer Variable";
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+
+}
+.small{
+    color: #FFF;
+font-family: Switzer;
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+
+text-transform: capitalize;
+margin-top: 1.8rem;
+position: absolute;
+}
+
+.navBannerBG {
+    background-color: #1B3936;
+    padding-bottom: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+    position: relative;
+}
+
+.bannerWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.bannerImage {
+    z-index: 1;
+}
+
+.bannertext {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bannerImages {
+    border-radius: 9999px; 
+    width: 38rem;
+    height: 38rem;
+    flex-shrink: 0;
+    display: flex;
+    margin-top: -45rem;
+    position: relative;
+}
+
+.circle {
+    
+    border: 3px dashed #75FF69;
+    border-radius: 50%;
+    position: absolute;
+    top: -1000px;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    width: 74.25rem;
+    height: 74.25rem;
+    transform: rotate(11.125deg);
+
+}
+
+.forestBgColor{
+    background: #F9F9F9;
+    z-index: 50;
+    position: absolute;
+    height: 500px;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    background-color: #F9F9F9;
+    gap: 10rem;
+}
+
+.left-section {
+    padding-top: 2rem;
+    text-align: left;
+}
+
+.logo {
+    width: 12.6875rem;
+    height: 17.255rem;
+    flex-shrink: 0;
+    
+}
+
+.description {
+    
+    line-height: 1.5;
+    color: #1B3936;
+    margin-top: 20px;
+    width: 39rem;
+    color: #1B3936;
+    font-family: Switzer;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    
+    text-align: left;
+}
+
+.right-section {
+    
+   
+    
+    
+}
+
+
+
+.tree{
+    width: 40px;
+    height: 80px;
+    position: absolute;
+    margin-top: 2.5rem;
+    margin-left: -69.5rem;
+}
+.tree1{
+    width: 40px;
+    height: 80px;
+    position: absolute;
+    margin-top: 7rem;
+    margin-left: -60.5rem;
+}
+.tree2{
+    width: 40px;
+    height: 80px;
+    position: absolute;
+    margin-top: 7rem;
+    margin-left: -78.7rem;
+}
+
+.Glogo{
+    color: #1B3936;
+text-align: left;
+font-family: boskaItalic;
+font-size: 9.48581rem;
+font-style: italic;
+font-weight: 400;
+line-height: 6.72631rem; 
+text-transform: capitalize;
+position: absolute;
+margin-left: -69.5rem;
+margin-top: 11rem;
+}
+
+.math{
+    color: #1B3936;
+font-family: boska;
+font-size: 6.25rem;
+font-style: normal;
+font-weight: 700;
+
+text-transform: capitalize;
+}
+
+.Mr.m{
+    color: #1B3936;
+font-family: Switzer ;
+font-size: 2rem;
+font-style: normal;
+font-weight: 400;
+
+}
+
+.title{
+    color: #1B3936;
+font-family: Switzer;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+
+}
+
+.stat{
+    padding-bottom: 2rem;
+}
+
+
+.newImage{
+    width: 100%;
+    height: 100%;
+}
+
+.imaage{
+    width: 90%px;
+    height: 999px;
+    
+}
+
+
+
+.divImg1{
+
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.divImg2{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Image1{
+    margin-top: 26rem;
+    position: absolute;
+    margin-right: 65rem;
+}
+.Image2{
+margin-top: 5rem;
+margin-left: 52rem;
+}
+.Image3{
+margin-top: 19rem;
+}
+.Image4{
+    margin-top: 27rem;
+}
+
+
+.forestText {
+    width: 67.70538rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    position: absolute;
+}
+
+
+.parentImageDiv {
+    background-color: #1B3936;
+    padding-bottom: -6rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.parentImageDiv img {
+    max-width: 100%;
+    height: auto;
+    
+}
+ 
+
+.parentImageDiv h2 {
+    margin-top: -78rem;
+    text-align: center;
+    margin-left: 24rem;
+}
+
+.colorText{
+    color: #678784;
+text-align: center;
+font-family: boska;
+font-size: 4.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.whiteText{
+    color: #FFF;
+font-family: boska;
+font-size: 4.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.ImagePosition{
+    position: absolute;
+}
+
+.curve {
+    width: 132.2rem;
+    margin-left: 0rem;
+    margin-top: 8rem;
+}
+
+.rooms{
+    display: flex;
+    justify-content: space-around;
+    gap: 10%;
+    align-items: center;
+}
+
+.imageTexts{
+    margin-top: -5.8rem;
+    margin-left: 3rem;
+    color: #F9F9F9;
+text-align: justify;
+font-family: boska;
+font-size: 2.007rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+
+.imageTexts1{
+    margin-top: -5.8rem;
+    margin-left: 3rem;
+    color: #F9F9F9;
+text-align: justify;
+font-family: boska;
+font-size: 2.007rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.textdiv{
+    position: absolute;
+    
+}
+.middleText1{
+    color: #F9F9F9;
+font-family: boska;
+font-size: 4.25rem;
+font-style: normal;
+font-weight: 500;
+margin-top: -13rem;
+    margin-left: 3rem;
+
+}
+
+.middleText2{
+    color: #FFF;
+font-family: Switzer;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+margin-top: -3rem;
+    margin-left: 3rem;
+    width: 22rem;
+}
+
+.containers{
+margin-top: 5rem;
+}
+.uniqueTitle{
+    width: 49rem;
+    color: #1B3936;
+font-family: boska;
+font-size: 4.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-right: auto;
+margin-left: 7%;
+}
+
+.arrowImage {
+    margin-left: 19%;
+    margin-top: 24.5%;
+    position: absolute;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    /* background-image: url('https://i.ibb.co/Gt2xdFz/BG.png');  */
+    background-size: cover;
+    background-position: center;
+    margin-top: 8%;
+    background-color: #1B3936;
+}
+
+.signup-box {
+    text-align: center;
+    
+    padding: 5%;
+    border-radius: 2%;
+    width: 50%;
+    position: absolute;
+}
+
+.signUpText{
+    color: #FFF;
+text-align: center;
+font-family: boska;
+font-size: 4.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+}
+.highlight{
+    color: var(--Screamin-Green, #1B3936);
+font-family: boska;
+font-size: 4.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+}
+.signUpImage{
+    width: 80%;
+    height: 80%;
+}
+
+.signup-box h1 {
+    font-size: 200%;
+    margin-bottom: 5%;
+}
+
+.signup-box .highlight {
+    color: #00ff00;
+}
+
+.signup-box p {
+    font-size: 100%;
+    margin-bottom: 5%;
+}
+
+.signup-box form {
+    display: flex;
+    justify-content: center;
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 70%;
+}
+
+.signup-box input[type="email"] {
+    padding: 3%;
+    font-size: 100%;
+    border: none;
+    border-radius: 1% 0 0 1%;
+    outline: none;
+    width: 60%;
+}
+
+.signup-box button {
+    padding: 2%;
+    font-size: 100%;
+    border: none;
+    background: #00ff00;
+    color: black;
+    border-radius: 0 1% 1% 0;
+    cursor: pointer;
+    outline: none;
+    transition: background 0.3s;
+    width: 20%;
+}
+
+.signup-box button:hover {
+    background: #00cc00;
+}
+
+.signUpDivContainer{
+    width: 37.6875rem;
+    text-align:  center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.oldNews{
+    width: 30rem;
+height: 3.125rem;
+flex-shrink: 0;
+color: #FFF;
+text-align: center;
+font-family: Switzer;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-right: auto;
+margin-left: auto;
+margin-top: -3%;
+}
+
+.submitButton{
+    color: #1B3936;
+font-family: Switzer;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.container1 {
+    width: 97.3%;
+    padding-top: 5%;
+    padding-right: 2.7%;
+    background-color: #F9F9F9;
+    text-align: center;
+}
+
+.headerTitle {
+    margin-bottom: 40px;
+    display: flex;
+    align-items: end;
+}
+
+.headerTitle h1 {
+    color: #1B3936;
+    font-family: boska;
+    font-size: 4.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    width: 47.875rem;
+    margin-left: 9%;
+}
+
+.headerTitle p {
+    color: #1B3936;
+font-family: Switzer;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    margin-bottom: 4rem;
+    width: 23.6875rem;
+    margin-left: 18%;
+}
+
+.carousel {
+    display: flex;
+    gap: 6%;
+    justify-content: end;
+    align-items: end;
+    margin-left: 24%;
+}
+
+.carousel-item {
+    position: relative;
+    width: 30%;
+    background: white;
+   
+    
+    overflow: hidden;
+}
+
+.carousel-item img {
+    width:28rem;
+height: 35rem;
+}
+
+.caption {
+    
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    background-color: white;
+    color: white;
+    padding: 13px;
+    
+    width: 28rem;
+    
+}
+.mainCaption{
+    display: flex;
+    position: absolute;
+    margin-top: -8%;
+    gap: 5%;
+    margin-left: 21%;
+}
+.caption h2 {
+    font-size: 1.5em;
+    margin: 0 0 10px 0;
+    text-align: left;
+    color: #1B3936;
+}
+
+.caption p {
+    font-size: 1em;
+    margin: 0;
+    text-align: left;
+    color: #1B3936;
+}
+
+
+.next-btn{
+    background-color: #75FF69;
+    color: #fff;
+    border: none;
+    padding: 17px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.2em;
+    border-radius: 9999px;
+}
+.prev-btn{
+    background-color: #2f4f4f;
+    color: #fff;
+    border: none;
+    padding: 17px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.2em;
+    border-radius: 9999px;
+}
+
+.navigation{
+    margin-top: 10%;
+    padding-bottom: 6%;
+}
+
+.secondLastSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    
+}
+
+.Ellipselogo{
+margin-top: 45%;
+}
+
+.lastTree1{
+    width: 40px;
+    height: 80px;
+    position: absolute;
+   margin-top: -14%; 
+    margin-left: 4.1%;
+}
+.lastTree2{
+    width: 40px;
+    height: 80px;
+    position: absolute;
+     margin-top: -9%;
+    margin-left: 0.6%;
+}
+.lastTree3{
+    width: 40px;
+    height: 80px;
+    position: absolute;
+    margin-top: -9%; 
+    margin-left: 7.8%;
+}
+
+.MyGlogo{
+    position: absolute;
+    margin-top: -7%;
+    margin-left: 3%;
+    color: #1B3936;
+text-align: center;
+font-family: boskaItalic ;
+font-size: 9.48581rem;
+font-style: italic;
+font-weight: 400;
+line-height: 6.72631rem; /* 70.909% */
+text-transform: capitalize;
+}
+
+.secondLastSectionTitle{
+    color: #1B3936;
+font-family: boska ;
+font-size: 4.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+text-align: left;
+}
+
+.secondLastSectionPTag{
+    color: #1B3936;
+font-family: Switzer ;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: left;
+margin-top: -6%;
+}
+
+.letsTalk{
+    border: solid #1B3936;
+    width: 12.5rem;
+height: 3.75rem;
+flex-shrink: 0;
+stroke-width: 1px;
+stroke: #1B3936;
+border-radius: 50%;
+margin-top: 10%;
+}
+
+.letsTalkText{
+    margin-top: 9%;
+    margin-left: 33%;
+
+}
+
+.container2 {
+    display: flex;
+    height: 100%;
+}
+
+.about {
+    background-color: #6AFF6A;
+    color: #000;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+}
+
+.rooms-contact {
+    flex: 2;
+    display: flex;
+    background-color: #0F2D2F;
+    color: #FFFFFF;
+}
+
+
+
+
+.aboutText{
+    color: #1B3936;
+font-family: boska ;
+font-size: 4.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+margin-top: -10%;
+}
+
+.usText{
+    margin-top: -9%;
+    margin-left: -9%;
+}
+.arrowImg1{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: 19%; 
+    margin-left: 33%;
+    position: absolute;
+}
+.arrowImg2{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: -5.5%;
+    margin-left: 20%;
+    position: absolute;
+}
+.arrowImg3{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: 16.5%;
+    margin-left: 35%;
+    position: absolute;
+}
+
+.roomText{
+    color: #FFF;
+font-family: boska ;
+font-size: 4.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+margin-left: 85%;
+margin-top: 150%;
+}
+
+.contactsTextthird{
+    color: #FFF;
+    font-family: boska;
+    font-size: 4.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 14.9%;
+   margin-left: 23%;
+    position: absolute;
+}
+
+
+.seeText{
+    color: #FFF;
+    font-family: Switzer;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 13%;
+    position: absolute;
+    margin-left: 8.5%;
+}
+
+.youcan{
+    margin-top: 13%;
+    margin-left: 23%;
+    position: absolute;
+}
+
+.footer {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #000;
+    padding: 1% 0%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5%;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 135px;
+}
+
+.footer ul li {
+    display: inline;
+    color: #1B3936;
+font-family: Switzer ;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+}
