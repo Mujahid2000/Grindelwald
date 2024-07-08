@@ -17,7 +17,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    max-width: 1440px;
+    max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
 
@@ -175,8 +175,8 @@ position: absolute;
     top: -1000px;
     transform: translate(-50%, -50%);
     z-index: 0;
-    width: 74.25rem;
-    height: 74.25rem;
+    width: 68.25rem;
+    height: 68.25rem;
     transform: rotate(11.125deg);
 
 }
@@ -190,7 +190,7 @@ position: absolute;
     position: absolute;
     height: 500px;
     width: 100%;
-    max-width: 1440px;
+    max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -244,21 +244,21 @@ position: absolute;
     height: 80px;
     position: absolute;
     margin-top: 2.5rem;
-    margin-left: -59.5rem;
+    margin-left: -56.5rem;
 }
 .tree1{
     width: 40px;
     height: 80px;
     position: absolute;
     margin-top: 7rem;
-    margin-left: -51.5rem;
+    margin-left: -47.5rem;
 }
 .tree2{
     width: 40px;
     height: 80px;
     position: absolute;
     margin-top: 7rem;
-    margin-left: -68.5rem;
+    margin-left: -65.5rem;
 }
 
 .Glogo{
@@ -271,7 +271,7 @@ position: absolute;
     line-height: 6.72631rem;
     text-transform: capitalize;
     position: absolute;
-    margin-left: -59.5rem;
+    margin-left: -56.5rem;
     margin-top: 11rem;
 }
 
@@ -338,19 +338,19 @@ font-weight: 400;
 .Image1{
     margin-top: 26rem;
     position: absolute;
-    margin-right: 57rem;
+    margin-right: 49rem;
 
 }
 .Image2{
     margin-top: 5rem;
-    margin-left: 57rem;
+    margin-left: 49rem;
 }
 .Image3{
-margin-top: 19rem;
-margin-left: -2rem;
+    margin-top: 13rem;
+    margin-left: -2rem;
 }
 .Image4{
-    margin-top: 27rem;
+    margin-top: 24rem;
     margin-right: -2rem;
 }
 
@@ -395,16 +395,16 @@ line-height: normal;
  
 
 .parentImageDiv h2 {
-    margin-top: -78.7rem;
+    margin-top: -75.7rem;
     text-align: center;
-    margin-left: 12rem;
+    margin-left: 8rem;
 }
 
 .colorText{
     color: #678784;
 text-align: center;
 font-family: boska;
-font-size: 4.25rem;
+font-size: 4rem;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
@@ -414,7 +414,7 @@ text-transform: capitalize;
 .whiteText{
     color: #FFF;
 font-family: boska;
-font-size: 4.25rem;
+font-size: 4rem;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
@@ -439,16 +439,15 @@ text-transform: capitalize;
 }
 
 .roomImg2 img{
-    width: 36.375rem;
-height: 48.64475rem;
+    width: 33.375rem;
+height: 44.64475rem;
 flex-shrink: 0;
 }
 
 
 .roomImg1 img{
-    width: 23.625rem;
-height: 31.605rem;
-flex-shrink: 0;
+    width: 20.625rem;
+    height: 27.605rem;
 }
 .imageTexts{
     margin-top: -5.8rem;
@@ -594,7 +593,7 @@ text-transform: capitalize;
 }
 
 .signup-box input[type="email"] {
-    padding: 3%;
+    padding: 4%;
     font-size: 100%;
     border: none;
     border-radius: 1% 0 0 1%;
@@ -604,7 +603,7 @@ text-transform: capitalize;
 
 .signup-box button {
     padding: 2%;
-    font-size: 100%;
+    font-size: 91%;
     border: none;
     background: #00ff00;
     color: black;
@@ -689,7 +688,7 @@ line-height: normal;
     line-height: normal;
     margin-bottom: 4rem;
     width: 23.6875rem;
-    margin-left: 3%;
+    margin-left: -1%;
 }
 
 .carousel {
@@ -697,7 +696,7 @@ line-height: normal;
     gap: 6rem;
     justify-content: end;
     align-items: end;
-    margin-left: 13%;
+    margin-left: 8%;
 }
 
 .carousel-item {
@@ -710,8 +709,8 @@ line-height: normal;
 }
 
 .carousel-item img {
-    width: 23.625rem;
-height: 29.8125rem;
+    width: 21.625rem;
+    height: 27.8125rem;
 }
 
 .caption {
@@ -720,11 +719,10 @@ height: 29.8125rem;
     right: 10px;
     background-color: white;
     color: white;
-    padding-left: 19px;
+    padding-left: 17px;
     padding-top: 21px;
-    
-    width: 23.625rem;
-    height: 9.5rem;
+    width: 22rem;
+    height: 8.5rem;
     flex-shrink: 0;
     
 }
@@ -733,7 +731,7 @@ height: 29.8125rem;
     position: absolute;
     margin-top: -12.8%;
     gap: 7.5%;
-    margin-left: 4.89%;
+    margin-left: 0.7%;
 }
 .caption h2 {
     font-size: 1.5em;
@@ -751,11 +749,10 @@ height: 29.8125rem;
 
 .gradient-div {
     position: relative;
-    
-    width: 24rem;
+    width: 23rem;
     height: 11rem;
     margin-left: 4%;
-    margin-top: -8%;
+    margin-top: -9%;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 37.83%, #FFF 85.53%);
   }
   
@@ -832,8 +829,8 @@ margin-top: 45%;
     width: 40px;
     height: 80px;
     position: absolute;
-    margin-top: -18%;
-    margin-left: 5.5%;
+    margin-top: -21%;
+    margin-left: 6.5%;
 }
 .lastTree2{
     width: 40px;
@@ -847,13 +844,13 @@ margin-top: 45%;
     height: 80px;
     position: absolute;
     margin-top: -13%;
-    margin-left: 10.5%;
+    margin-left: 11.8%;
 }
 
 .MyGlogo{
     position: absolute;
-    margin-top: -9%;
-    margin-left: 3.5rem;
+    margin-top: -10%;
+    margin-left: 4rem;
     margin-right: 2%;
     color: #1B3936;
     text-align: center;
@@ -956,15 +953,16 @@ margin-top: -10%;
 .arrowImg2{
     width: 2.5rem;
     height: 2.5rem;
-    margin-top: -7.4%;
-    margin-left: 25%;
+    margin-top: -8.4%;
+    margin-left: 29%;
     position: absolute;
+
 }
 .arrowImg3{
     width: 2.5rem;
     height: 2.5rem;
-    margin-top: 20.5%;
-    margin-left: 38%;
+    margin-top: 23%;
+    margin-left: 40%;
     position: absolute;
 }
 
@@ -988,7 +986,7 @@ margin-top: -10%;
     font-weight: 400;
     line-height: normal;
     text-transform: capitalize;
-    margin-top: 18.4%;
+    margin-top: 20.8%;
     margin-left: 23%;
     position: absolute;
 }
@@ -1003,7 +1001,7 @@ margin-top: -10%;
     line-height: normal;
     margin-top: 17%;
     position: absolute;
-    margin-left: 11.5%;
+    margin-left: 13%;
 }
 
 .youcan{
@@ -1027,7 +1025,7 @@ margin-top: -10%;
     margin: 0;
     display: flex;
     justify-content: space-between;
-    gap: 135px;
+    gap: 100px;
 }
 
 .footer ul li {
@@ -1056,14 +1054,48 @@ line-height: normal;
         position: absolute;
         margin-top: -12.8%;
         gap: 7.5%;
-        margin-left: 3.78%;
+        margin-left: 0.6%;
     }
 
     .opacityDiv {
         display: flex;
-        justify-content: space-around;
-        gap: 3%;
-        margin-top: -5.3%;
-        margin-left: 0.5%;
+    justify-content: space-around;
+    gap: 3%;
+    margin-top: -4.99%;
+    margin-left: -3.5%;
+    }
+
+    .navBannerBG {
+        background-color: #1B3936;
+   
+    height: 61rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    padding-bottom: 5rem;
+    }
+
+    .bannertext {
+        position: absolute;
+        z-index: 2;
+        top: 57%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: -29rem;
+    }
+
+    .circle {
+    
+        border: 3px dashed #75FF69;
+        border-radius: 50%;
+        position: absolute;
+        top: -1000px;
+        transform: translate(-50%, -50%);
+        z-index: 0;
+        width: 70.25rem;
+        height: 70.25rem;
+        transform: rotate(11.125deg);
+    
     }
   }
