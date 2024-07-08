@@ -17,6 +17,10 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+
     
 }
 
@@ -25,6 +29,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
+    
    
 }
 
@@ -176,12 +181,18 @@ position: absolute;
 
 }
 
+
+/* 2nd part */
+
 .forestBgColor{
     background: #F9F9F9;
     z-index: 50;
     position: absolute;
     height: 500px;
     width: 100%;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .container {
@@ -233,35 +244,35 @@ position: absolute;
     height: 80px;
     position: absolute;
     margin-top: 2.5rem;
-    margin-left: -69.5rem;
+    margin-left: -59.5rem;
 }
 .tree1{
     width: 40px;
     height: 80px;
     position: absolute;
     margin-top: 7rem;
-    margin-left: -60.5rem;
+    margin-left: -51.5rem;
 }
 .tree2{
     width: 40px;
     height: 80px;
     position: absolute;
     margin-top: 7rem;
-    margin-left: -78.7rem;
+    margin-left: -68.5rem;
 }
 
 .Glogo{
     color: #1B3936;
-text-align: left;
-font-family: boskaItalic;
-font-size: 9.48581rem;
-font-style: italic;
-font-weight: 400;
-line-height: 6.72631rem; 
-text-transform: capitalize;
-position: absolute;
-margin-left: -69.5rem;
-margin-top: 11rem;
+    text-align: left;
+    font-family: boskaItalic;
+    font-size: 9.48581rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 6.72631rem;
+    text-transform: capitalize;
+    position: absolute;
+    margin-left: -59.5rem;
+    margin-top: 11rem;
 }
 
 .math{
@@ -321,22 +332,26 @@ font-weight: 400;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    gap: 7rem;
 }
 
 .Image1{
     margin-top: 26rem;
     position: absolute;
-    margin-right: 65rem;
+    margin-right: 57rem;
+
 }
 .Image2{
-margin-top: 5rem;
-margin-left: 52rem;
+    margin-top: 5rem;
+    margin-left: 57rem;
 }
 .Image3{
 margin-top: 19rem;
+margin-left: -2rem;
 }
 .Image4{
     margin-top: 27rem;
+    margin-right: -2rem;
 }
 
 
@@ -380,9 +395,9 @@ line-height: normal;
  
 
 .parentImageDiv h2 {
-    margin-top: -78rem;
+    margin-top: -78.7rem;
     text-align: center;
-    margin-left: 24rem;
+    margin-left: 12rem;
 }
 
 .colorText{
@@ -419,10 +434,22 @@ text-transform: capitalize;
 .rooms{
     display: flex;
     justify-content: space-around;
-    gap: 10%;
+    
     align-items: center;
 }
 
+.roomImg2 img{
+    width: 36.375rem;
+height: 48.64475rem;
+flex-shrink: 0;
+}
+
+
+.roomImg1 img{
+    width: 23.625rem;
+height: 31.605rem;
+flex-shrink: 0;
+}
 .imageTexts{
     margin-top: -5.8rem;
     margin-left: 3rem;
@@ -489,9 +516,12 @@ margin-left: 7%;
 }
 
 .arrowImage {
-    margin-left: 19%;
-    margin-top: 24.5%;
+    margin-left: 31%;
+    margin-top: 35.5%;
     position: absolute;
+    width: 2.71056rem;
+height: 2.5rem;
+    
 }
 
 .signup-container {
@@ -622,9 +652,9 @@ line-height: normal;
 }
 
 .container1 {
-    width: 97.3%;
+    
     padding-top: 5%;
-    padding-right: 2.7%;
+    
     background-color: #F9F9F9;
     text-align: center;
 }
@@ -644,27 +674,28 @@ line-height: normal;
     line-height: normal;
     text-transform: capitalize;
     width: 47.875rem;
-    margin-left: 9%;
+    margin-left: 7.8%;
+    text-align: left;
 }
 
 .headerTitle p {
     color: #1B3936;
-font-family: Switzer;
-font-size: 1.125rem;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    font-family: Switzer;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
     margin-bottom: 4rem;
     width: 23.6875rem;
-    margin-left: 18%;
+    margin-left: 3%;
 }
 
 .carousel {
     display: flex;
-    gap: 6%;
+    gap: 6rem;
     justify-content: end;
     align-items: end;
-    margin-left: 24%;
+    margin-left: 8%;
 }
 
 .carousel-item {
@@ -677,28 +708,29 @@ line-height: normal;
 }
 
 .carousel-item img {
-    width:28rem;
-height: 35rem;
+    width: 23.625rem;
+height: 29.8125rem;
 }
 
 .caption {
-    
     bottom: 10px;
     left: 10px;
     right: 10px;
     background-color: white;
     color: white;
-    padding: 13px;
+    padding-left: 19px;
     
-    width: 28rem;
+    width: 23.625rem;
+    height: 9.5rem;
+    flex-shrink: 0;
     
 }
 .mainCaption{
     display: flex;
     position: absolute;
     margin-top: -8%;
-    gap: 5%;
-    margin-left: 21%;
+    gap: 7.5%;
+    margin-left: 4.89%;
 }
 .caption h2 {
     font-size: 1.5em;
@@ -719,25 +751,35 @@ height: 35rem;
     background-color: #75FF69;
     color: #fff;
     border: none;
-    padding: 17px 20px;
+    padding: 20px;
     margin: 0 10px;
     cursor: pointer;
     border-radius: 5px;
     font-size: 1.2em;
     border-radius: 9999px;
+    width: 3.75rem;
+    height: 3.75rem;
 }
 .prev-btn{
     background-color: #2f4f4f;
     color: #fff;
     border: none;
-    padding: 17px 20px;
+    padding: 20px;
     margin: 0 10px;
     cursor: pointer;
     border-radius: 5px;
     font-size: 1.2em;
     border-radius: 9999px;
+    width: 3.75rem;
+    height: 3.75rem;
 }
 
+
+
+
+.prevButtonImg{
+    rotate: 180deg;
+}
 .navigation{
     margin-top: 10%;
     padding-bottom: 6%;
@@ -760,28 +802,28 @@ margin-top: 45%;
     width: 40px;
     height: 80px;
     position: absolute;
-   margin-top: -14%; 
-    margin-left: 4.1%;
+    margin-top: -18%;
+    margin-left: 5.5%;
 }
 .lastTree2{
     width: 40px;
     height: 80px;
     position: absolute;
-     margin-top: -9%;
+    margin-top: -13%;
     margin-left: 0.6%;
 }
 .lastTree3{
     width: 40px;
     height: 80px;
     position: absolute;
-    margin-top: -9%; 
-    margin-left: 7.8%;
+    margin-top: -13%;
+    margin-left: 10.5%;
 }
 
 .MyGlogo{
     position: absolute;
-    margin-top: -7%;
-    margin-left: 3.6rem;
+    margin-top: -9%;
+    margin-left: 3.5rem;
     margin-right: 2%;
     color: #1B3936;
     text-align: center;
@@ -877,35 +919,35 @@ margin-top: -10%;
 .arrowImg1{
     width: 2.5rem;
     height: 2.5rem;
-    margin-top: 19%; 
-    margin-left: 33%;
+    margin-top: 25%;
+    margin-left: 31%;
     position: absolute;
 }
 .arrowImg2{
     width: 2.5rem;
     height: 2.5rem;
-    margin-top: -5.5%;
-    margin-left: 20%;
+    margin-top: -7.4%;
+    margin-left: 25%;
     position: absolute;
 }
 .arrowImg3{
     width: 2.5rem;
     height: 2.5rem;
-    margin-top: 16.5%;
-    margin-left: 35%;
+    margin-top: 20.5%;
+    margin-left: 38%;
     position: absolute;
 }
 
 .roomText{
     color: #FFF;
-font-family: boska ;
-font-size: 4.25rem;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-text-transform: capitalize;
-margin-left: 85%;
-margin-top: 150%;
+    font-family: boska;
+    font-size: 4.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-left: 85%;
+    margin-top: 141%;
 }
 
 .contactsTextthird{
@@ -916,8 +958,8 @@ margin-top: 150%;
     font-weight: 400;
     line-height: normal;
     text-transform: capitalize;
-    margin-top: 14.9%;
-   margin-left: 23%;
+    margin-top: 18.4%;
+    margin-left: 23%;
     position: absolute;
 }
 
@@ -929,13 +971,13 @@ margin-top: 150%;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-top: 13%;
+    margin-top: 17%;
     position: absolute;
-    margin-left: 8.5%;
+    margin-left: 11.5%;
 }
 
 .youcan{
-    margin-top: 13%;
+    margin-top: 17%;
     margin-left: 23%;
     position: absolute;
 }
