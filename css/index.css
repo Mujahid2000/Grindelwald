@@ -1049,3 +1049,21 @@ line-height: normal;
 .footer ul li a:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 1440px) {
+    .mainCaption {
+        display: flex;
+        position: absolute;
+        margin-top: -12.8%;
+        gap: 7.5%;
+        margin-left: 3.78%;
+    }
+
+    .opacityDiv {
+        display: flex;
+        justify-content: space-around;
+        gap: 3%;
+        margin-top: -5.3%;
+        margin-left: 0.5%;
+    }
+  }
