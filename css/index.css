@@ -731,7 +731,7 @@ height: 29.8125rem;
 .mainCaption{
     display: flex;
     position: absolute;
-    margin-top: -8%;
+    margin-top: -12.8%;
     gap: 7.5%;
     margin-left: 4.89%;
 }
@@ -772,8 +772,8 @@ height: 29.8125rem;
   .opacityDiv{
     display: flex;
     justify-content: space-around;
-    gap: 4%;
-    margin-top: -0.3%;
+    gap: 3%;
+    margin-top: -5.3%;
     margin-left: 1%;
     
   }
